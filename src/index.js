@@ -22,7 +22,6 @@ connectDB()
   .catch((err) => {
     console.log("MONGO DB connction FAILED !!! ", err);
   });
-
 /*
 =========!!!!!! Frist approch to connect DB !!!!!!===========
 const app = express()(async () => {
